@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="survey-form">
+            <h3>Introduction To Programming</h3>
+            <p>
+                This form attempts to quantify user satisfaction with the platform.
+                The feedback will be used to improve the curriculum.
+            </p>
+            <div class="user-info">
+                <div>
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="text" id="name" placeholder="John Doe">
+                </div>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="johndoe@something.com">
+                </div>
+                <div>
+                    <label for="age">Age (optional):</label><br>
+                    <input type="text" name="age" id="age" placeholder="Enter your age">
+                </div>
+                <div>
+                    <label for="phone">Enter your phone number:</label><br>
+                    <input type="text" name="phone" id="phone" placeholder="123-45-678">
+                </div>
+            </div>
+            <div class="salary">
+                <label for="salary">What best describes your current salary?</label>
+                <select id="salary">
+                    <option selected>above $30k</option>
+                    <option>between $15k and $30k</option>
+                    <option>less than $15k</option>
+                </select>
+            </div>
+            <div class="role">
+                <label>What best describes your current role?</label>
+                <select id="role">
+                    <option selected>Student</option>
+                    <option>Teacher</option>
+                    <option>Hobbyist</option>
+                </select>
+            </div>
+            <div class="programming-type">
+                <p>Type of programming interested in:</p>
+                <div>
+                    <input type="radio" id="functional"         name="interested-language" value="Functional">
+                    <label for="functional">Functional</label>
+                </div>
+                <div>
+                    <input type="radio" id="declarative"        name="interested-language" value="Declarative">
+                    <label for="declarative">Declarative</label>
+                </div>
+                <div>
+                    <input type="radio" id="object-oriented"    name="interested-language" value="Object Oriented">
+                    <label for="object-oriented">Object Oriented</label>
+                </div>
+            </div>
+            <div class="programming-language-interested">
+                <p>Programming Languages of Interests</p>
+                <div>
+                    <input type="checkbox" id="C++" value="C++">
+                    <label for="C++">C++</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Fortran" value="Fortran">
+                    <label for="Fortran">Fortran</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Java" value="Java">
+                    <label for="Java">Java</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Pascal" value="Pascal">
+                    <label for="Pascal">Pascal</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Ruby" value="Ruby">
+                    <label for="Ruby">Ruby</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="C#" value="C#">
+                    <label for="C#">C#</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Python" value="Python">
+                    <label for="Python">Python</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="PHP" value="PHP">
+                    <label for="PHP">PHP</label>
+                </div> 
+            </div>
+            <div class="additional-information">
+                <p>Additional Information:</p>
+                <textarea></textarea>
+            </div>
+            <input type="submit">
+        </div>
+        
+    </body>
+</html>
